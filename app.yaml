@@ -1,0 +1,12 @@
+runtime: nodejs
+vm: true
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: mongodb://appo:appo@ds048719.mlab.com:48719/app-ology_cloud
+  APP_ID: qnOgGivA7qAiyH1D71YOtRqByBILmhDPlRzRZi0t
+  MASTER_KEY: 1WR9lQkM5TkgnHJbLJOf4P7K9N8zkcIIpV8VGn2x
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  # PARSE_MOUNT: /parse
+  # CLOUD_CODE_MAIN:  
